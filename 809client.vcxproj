@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="async_http_client.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="config_parser.cpp" />
+    <ClCompile Include="kafka_reader.cpp" />
+    <ClCompile Include="msg_proc.cpp" />
+    <ClCompile Include="project_monitor.cpp" />
+    <ClCompile Include="rabbitmq_writer.cpp" />
+    <ClCompile Include="sys.cpp" />
+    <ClCompile Include="thread_pool.cpp" />
+    <ClCompile Include="dev_data_mgr.cpp" />
+    <ClCompile Include="easylogging++.cc" />
+    <ClCompile Include="format_helper.cpp" />
+    <ClCompile Include="funs.cpp" />
+    <ClCompile Include="jt_body.cpp" />
+    <ClCompile Include="jt_frame.cpp" />
+    <ClCompile Include="jt_send.cpp" />
+    <ClCompile Include="jt_sub_body.cpp" />
+    <ClCompile Include="load_libs.cpp" />
+    <ClCompile Include="logging.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="msg_service.cpp" />
+    <ClCompile Include="odbc_conn.cpp" />
+    <ClCompile Include="packet_parser.cpp" />
+    <ClCompile Include="parse_helper.cpp" />
+    <ClCompile Include="project.cpp" />
+    <ClCompile Include="rabbitmq_reader.cpp" />
+    <ClCompile Include="tcp_client.cpp" />
+    <ClCompile Include="tcp_connection.cpp" />
+    <ClCompile Include="tcp_server.cpp" />
+    <ClCompile Include="test_code.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="async_http_client.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="config_parser.h" />
+    <ClInclude Include="db_def.h" />
+    <ClInclude Include="kafka_reader.h" />
+    <ClInclude Include="msg_proc.h" />
+    <ClInclude Include="project_monitor.h" />
+    <ClInclude Include="rabbitmq_writer.h" />
+    <ClInclude Include="sys.h" />
+    <ClInclude Include="thread_pool.h" />
+    <ClInclude Include="dev_data_mgr.h" />
+    <ClInclude Include="easylogging++.h" />
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="format_helper.h" />
+    <ClInclude Include="funs.h" />
+    <ClInclude Include="jt_body.h" />
+    <ClInclude Include="jt_frame.h" />
+    <ClInclude Include="jt_send.h" />
+    <ClInclude Include="jt_sub_body.h" />
+    <ClInclude Include="logging.h" />
+    <ClInclude Include="msg_def.h" />
+    <ClInclude Include="msg_service.h" />
+    <ClInclude Include="odbc_conn.h" />
+    <ClInclude Include="packet_parser.h" />
+    <ClInclude Include="parse_helper.h" />
+    <ClInclude Include="project.h" />
+    <ClInclude Include="rabbitmq_reader.h" />
+    <ClInclude Include="std.h" />
+    <ClInclude Include="tcp_client.h" />
+    <ClInclude Include="tcp_connection.h" />
+    <ClInclude Include="tcp_server.h" />
+    <ClInclude Include="test_code.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F2AB517C-9508-43D0-8D73-133CD2DA1873}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My809client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>new_test</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SRC_E6GPS_DLL_2017);$(IncludePath);$(SRC_BOOST172);$(SRC_E6GPS_DLL);$(SRC_E6GPS_DEV);$(SRC_OCI);$(SRC_JSONCXX)\include;$(SRC_MYSQL);$(SRC_KAFKA);$(SRC_RABBITMQ);$(SRC_LOG4);</IncludePath>
+    <LibraryPath>$(SRC_RABBITMQ_NEW_DEBUG);$(LibraryPath);$(SRC_E6GPS_DLL_DEBUG);$(SRC_E6GPS_DEV_DEBUG);$(SRC_LIB_KAFKA)/debug;$(SRC_OCI_LIB);$(SRC_JSONCXX)\build\vs14\debug\lib_json\;$(SRC_E6GPS_DLL_2017)\Debug;$(SRC_MYSQL_LIB)\vs14;$(SRC_BOOST172_LIB);$(SRC_LOG4_LIB)/debug;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SRC_E6GPS_DLL_2017);$(IncludePath);$(SRC_BOOST172);$(SRC_E6GPS_DLL);$(SRC_E6GPS_DEV);$(SRC_OCI);$(SRC_JSONCXX)\include;$(SRC_MYSQL);$(SRC_RABBITMQ);$(SRC_LOG4);$(SRC_KAFKA)</IncludePath>
+    <LibraryPath>$(SRC_RABBITMQ_NEW_RELEASE);$(LibraryPath);$(SRC_E6GPS_DLL_RELEASE);$(SRC_E6GPS_DEV_RELEASE);$(SRC_OCI_LIB);$(SRC_JSONCXX)\build\vs14\release\lib_json\;$(SRC_E6GPS_DLL_2017)\Release;$(SRC_MYSQL_LIB)\vs14;$(SRC_BOOST172_LIB);$(SRC_LOG4_LIB)/release;$(SRC_LIB_KAFKA)/release</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

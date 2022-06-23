@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{4ffdf088-17de-46ff-9be0-e9ce2c08df0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{fbb1972f-e47c-4cdb-b794-2ac85a54e73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{75f2fbdb-cb12-4d99-b84b-b0e11231f28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{13770af8-e9f3-48c1-990b-4b1fabc91c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{948075ec-f0b8-4b82-9eaf-d3a5f930027f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tcp">
+      <UniqueIdentifier>{eb161a9c-9a5f-44f8-9c8e-ca69d7d559e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rabbitmq">
+      <UniqueIdentifier>{20a0fe7c-c72b-4b2f-bb54-f89314092aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project">
+      <UniqueIdentifier>{b1282e10-7683-4f19-b6b0-b9a24448f0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser">
+      <UniqueIdentifier>{09f32ff5-0001-4c01-9d2d-5d8d51a2e9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msg_def">
+      <UniqueIdentifier>{f86f328a-2eb4-4522-9b83-b2569e517483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{7c865041-bccb-4178-b734-cfa2dc04205e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="monitor">
+      <UniqueIdentifier>{fcdab7c7-b09f-4fb4-bf33-6ed05d79c77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kafka">
+      <UniqueIdentifier>{2cf361eb-76f9-424d-b2ae-8d10059980c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="funs.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="easylogging++.cc">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config_parser.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="odbc_conn.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client.cpp">
+      <Filter>tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmq_reader.cpp">
+      <Filter>rabbitmq</Filter>
+    </ClCompile>
+    <ClCompile Include="test_code.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="project.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="load_libs.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="packet_parser.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_helper.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="format_helper.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_service.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server.cpp">
+      <Filter>tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jt_send.cpp">
+      <Filter>msg_def</Filter>
+    </ClCompile>
+    <ClCompile Include="jt_frame.cpp">
+      <Filter>msg_def</Filter>
+    </ClCompile>
+    <ClCompile Include="jt_body.cpp">
+      <Filter>msg_def</Filter>
+    </ClCompile>
+    <ClCompile Include="jt_sub_body.cpp">
+      <Filter>msg_def</Filter>
+    </ClCompile>
+    <ClCompile Include="async_http_client.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="dev_data_mgr.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_connection.cpp">
+      <Filter>tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_pool.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_proc.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmq_writer.cpp">
+      <Filter>rabbitmq</Filter>
+    </ClCompile>
+    <ClCompile Include="project_monitor.cpp">
+      <Filter>monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="kafka_reader.cpp">
+      <Filter>kafka</Filter>
+    </ClCompile>
+    <ClCompile Include="sys.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="funs.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="easylogging++.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config_parser.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="odbc_conn.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_client.h">
+      <Filter>tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmq_reader.h">
+      <Filter>rabbitmq</Filter>
+    </ClInclude>
+    <ClInclude Include="test_code.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="project.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_parser.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_helper.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="format_helper.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_service.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_server.h">
+      <Filter>tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jt_send.h">
+      <Filter>msg_def</Filter>
+    </ClInclude>
+    <ClInclude Include="jt_frame.h">
+      <Filter>msg_def</Filter>
+    </ClInclude>
+    <ClInclude Include="jt_body.h">
+      <Filter>msg_def</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_def.h">
+      <Filter>msg_def</Filter>
+    </ClInclude>
+    <ClInclude Include="jt_sub_body.h">
+      <Filter>msg_def</Filter>
+    </ClInclude>
+    <ClInclude Include="async_http_client.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="dev_data_mgr.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_connection.h">
+      <Filter>tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_pool.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="db_def.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_proc.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmq_writer.h">
+      <Filter>rabbitmq</Filter>
+    </ClInclude>
+    <ClInclude Include="project_monitor.h">
+      <Filter>monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="kafka_reader.h">
+      <Filter>kafka</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>app</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
