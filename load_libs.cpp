@@ -1,14 +1,13 @@
-#ifdef _WIN32
-#pragma comment(lib, "Dbghelp.lib")
-#pragma comment(lib,"SimpleAMQPClient.2.lib")
-#pragma comment(lib,"GZipCodec.lib")
-#pragma comment(lib, "odbc_exec.lib")
-#pragma comment(lib, "odbc_pool.lib")
-#pragma comment(lib, "odbc_writer.lib")
-#pragma comment(lib,"librdkafkacpp.lib")
+#include "stdafx.h"
+
+#pragma comment(lib,"log_local.lib")
+#pragma comment(lib,"cs_lock.lib")
+#pragma comment(lib,"ThreadWithLog.lib")
+#pragma comment(lib,"ws2_32.lib")
 #ifdef _DEBUG
 #pragma comment(lib, "json_vc71_libmtd.lib")
 #else
 #pragma comment(lib, "json_vc71_libmt.lib")
 #endif
-#endif
+#pragma comment(lib, "http_method.lib")
+#pragma comment(lib, "tiny_xml.lib")

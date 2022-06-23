@@ -1,0 +1,13 @@
+{
+  "dev_class": {
+    "adas_rm_class": [14470,14533,14548,14559,14538,14509,14496,14515,14584,14595,14776,14777,14783,14640,14814,14816],
+    "adas_bsj_class": [14517,14603,14593,6562,6598,7280,14581,9122,9121,14450,14656,14629,14864,14867],
+    "adas_youwei_class": [123]
+  },
+  "alarm_type": [
+	{"protocal":1, "modal": 100, "alarm_type": 1, "class": 1, "event": 1},
+	{"protocal":1, "modal": 100, "alarm_type": 2, "class": 1, "event": 2},
+	{"protocal":1, "modal": 100, "alarm_type": 3, "class": 1, "event": 3},
+	{"protocal":1, "modal": 100, "alarm_type": 4, "class": 1, "event": 4}
+  ]
+}
