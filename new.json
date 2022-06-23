@@ -1,0 +1,20 @@
+{
+    "CustomName":"иб66629",
+    "TempArr":[
+      {
+      	"TempRoute":1,
+        "TempStatus":0,
+        "TempValue":13.5
+      },
+      {
+      	"TempRoute":2,
+        "TempStatus":-1,
+        "TempValue":-13.5
+      },
+      {
+      	"TempRoute":3,
+        "TempStatus":1,
+        "TempValue":35
+      }
+    ]
+}

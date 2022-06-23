@@ -1,0 +1,103 @@
+{
+ 
+	
+    "aiTrack":{
+        "vehicleID":1257750,
+        "gpsTime":1611331200000,
+        "wid":"14445238196",
+        "lon":113.297512,
+        "lat":22.992024,
+        "speed":0,
+        "direction":268,
+        "odometer":1754.7,
+        "lineStatus":1,
+        "loStatus":3,
+        "status":"载重1:装载,载重值320.0KG,AD值2601,载重2:装载,载重值0.0KG,AD值0,冷机关"
+    },
+	
+    "aiStopTime":null,
+    "aiPicture":null,
+    "aiOil":null,
+    "aiTemp":null,
+    "aiICCard":null,
+    "aiTrailer":null,
+    "aiSTICCard":null,
+    "aiHumidity":null,
+    "aiObd":null,
+    "aiLabels":null,
+    "aiTires":null,
+    "aiATAlarm":null,
+    "aiATAlarmFile":null,
+    "aiFacePhoto":null,
+    "aiText":null,
+    "aiVanguard":null,
+    "aiZHB":null,
+    "aiSensor":null,
+    "aiLoad":null,
+    "aiPressure":null,
+    "aiLight":1,
+	
+    "iotput":{
+        "row":"MTI1Nzc1MC05ODM4ODY2ODc5OTk5OQ==",
+        "durability":"SKIP_WAL",
+        "familyMap":{
+
+        },
+		
+        "fingerprint":{
+            "families":[
+
+            ]
+        },
+		
+        "timeStamp":9223372036854775807,
+        "writeToWAL":false,
+        "familyCellMap":{
+
+        },
+        "clusterIds":[
+
+        ],
+        "cellVisibility":null,
+        "ttl":9223372036854775807,
+        "acl":null,
+        "empty":true,
+        "id":null,
+        "attributesMap":{
+
+        }
+    },
+    "iotmaxPut":[
+
+    ],
+    "hourMaxPut":{
+        "row":"NTUyNDA3LTEyNTc3NTA=",
+        "durability":"SKIP_WAL",
+        "familyMap":{
+
+        },
+        "fingerprint":{
+            "families":[
+
+            ]
+        },
+        "timeStamp":9223372036854775807,
+        "writeToWAL":false,
+        "familyCellMap":{
+
+        },
+        "clusterIds":[
+
+        ],
+        "cellVisibility":null,
+        "ttl":9223372036854775807,
+        "acl":null,
+        "empty":true,
+        "id":null,
+        "attributesMap":{
+
+        }
+    },
+    "id":"1257750"
+}
+
